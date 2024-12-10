@@ -1,0 +1,121 @@
+.body{
+  background-color: #0f0f0f;
+}
+
+.dashboard-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-wrap: wrap; /* This ensures wrapping on smaller screens */
+    background-color: #0f0f0f;
+  }
+  
+  .form-section {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 80px;
+    background-color: #7e0808;
+    color: #ddd;
+  }
+
+  .config-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px; }
+  
+  .display-section {
+    display:contents;
+    justify-content: space-between;  /* Space out cards horizontally */
+    gap:5px; /* Space between each card */
+    flex-wrap: wrap; /* Wraps the cards on smaller screens */
+    width: 45%;
+  }
+  
+  .card {
+
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px; /* Adds space below each card */
+  }
+  
+  .card .circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #1e279c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px; /* Adds space between circle and text below */
+    color: white;
+    font-size: 24px;
+  }
+  
+  .card-content {
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .control-buttons {
+    display:flexbox;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .control-buttons button {
+    padding: 20px 20px;
+    background-color: #2ddb2d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    margin-right: 50px;
+    padding-right: 20px;
+  }
+  
+  .control-buttons button:disabled {
+    background-color: #6e8509;
+    cursor: not-allowed;
+  }
+  
+  .control-buttons button:hover {
+    background-color: #162e18;
+  }
+  
+  .log-table {
+    display: contents;
+    margin-top: 30px;
+    width: 30%;
+    border-collapse: collapse;
+    background-color: #ddd;
+  }
+  
+  .log-table table {
+    width: 50%;
+    border: 1px solid #ddd;
+    table-layout: auto;
+    margin-bottom: 100px;
+  }
+  
+  .log-table th, .log-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .log-table th {
+    background-color: #f2f2f2;
+  }
+  
